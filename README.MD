@@ -1,6 +1,8 @@
 # usuario (GET, POST, PUT, DELETE)
  ## EndPoints
-	- api/v1/user
+	- api/v1/user - Get, post
+	- api/v1/user/{nombre} - Get
+	- api/v1/user/{id} - Put, Delete
  ## Estructuras
 	{
 		"nombre": string,
